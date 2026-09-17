@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem   id="menu_inventory_root"
+                name="Simple Inventory"
+                sequence="10"/>
+
+    <menuitem   id="menu_inventory_product"
+                name="Items"
+                parent="menu_inventory_root"
+                action="action_inventory_product"
+                sequence="10" />
+
+    <menuitem   id="menu_inventory_move"
+                name="Stock Moves"
+                parent="menu_inventory_root"
+                action="action_inventory_move"
+                sequence="20" />
+</odoo>
